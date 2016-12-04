@@ -1,0 +1,150 @@
+
+@font-face {
+    font-family: 'canarolight';
+    src: url('../fonts/rene_bieder_-_canaro_light-webfont.woff2') format('woff2'),
+         url('../rene_bieder_-_canaro_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+
+
+
+/*CONTENT*/
+
+body {
+  font-family: 'canarolight';
+	width:100%;
+	margin:0;padding:0;
+}
+
+#wrapper {
+	width:100%;
+	position:absolute;
+	top:0;left:0;
+	background-color:#fff;
+	overflow:hidden;
+}
+
+	#mask {
+		width:500%;
+		height:100%;
+		background-color:#fff;
+	}
+
+	.item {
+		width:20%;
+		height:100%;
+		float:left;
+		background-color:#fff;
+	}
+
+
+	.content {
+		height:660px;
+		top:110px;
+		margin:0 auto;
+		position:relative;
+		width:954px;
+	}
+
+	.selected {
+		background:#fff;
+		font-weight:700;
+	}
+
+	.clear {
+		clear:both;
+	}
+
+
+	#programme, #infos{
+	width:960px;
+	height:540px;
+	}
+
+  #programme{
+    background-image: url('../img/invitation_statique.png');
+  }
+
+  #infos{
+    background-image: url('../img/programme.png');
+  }
+
+
+
+
+  a{
+    text-decoration: none;
+  }
+
+  .btn{
+    text-transform: uppercase;
+    color: #2e9688;
+    font-size: 18px;
+    text-align: center;;
+    padding-top:13px;
+    padding-bottom:10px;
+    background-color: #ffffff;
+    border:1px solid #afc2bf;
+    border-radius:4px;
+  	transition: border 0.2s, background 0.2s, color 0.2s;
+    transition-timing-function : ease-out;
+  }
+
+  a.btn:hover{
+    border:1px solid #2e9688;
+    background-color: #2e9688;
+    color: #ffffff;
+  	transition: border 0.1s, background 0.1s, color 0.1s;
+    transition-timing-function : ease-out;
+  }
+
+	#btn_programme, #btn_infos{
+	position:absolute;
+	top:-75px;
+	left: calc(50% - 110px);
+	width:220px;
+	}
+
+  #btn_infos{
+	position:absolute;
+	top:-75px;
+	left: calc(50% - 120px);
+	width:220px;
+	}
+
+	#btn_retour{
+	position:absolute;
+	top:-75px;
+	left:0px;
+	width:200px;
+	}
+
+	#btn_retour span{
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    width: 15px;
+    height: 15px;
+    background-image: url('../img/back.svg')
+  }
+
+  #btn_retour span.hovered{
+    background-image: url('../img/back_over.svg')
+  }
+
+
+
+object, #programme{
+  -webkit-box-shadow: 0px 2px 5px -1px rgba(199,199,199,0.64);
+  -moz-box-shadow: 0px 2px 5px -1px rgba(199,199,199,0.64);
+  box-shadow: 0px 2px 5px -1px rgba(199,199,199,0.64);
+}
+
+	object:focus
+{
+  outline: none;
+
+}
