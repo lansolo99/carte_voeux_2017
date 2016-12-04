@@ -2,7 +2,7 @@
 @font-face {
     font-family: 'canarolight';
     src: url('../fonts/rene_bieder_-_canaro_light-webfont.woff2') format('woff2'),
-         url('../rene_bieder_-_canaro_light-webfont.woff') format('woff');
+         url('../fonts/rene_bieder_-_canaro_light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
